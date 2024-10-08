@@ -19,8 +19,4 @@ public class Hike<T extends Number> implements Comparable<Hike<T>> {
 
         return (int) (thisDifficulty - otherDifficulty);
     }
-
-    public static void main(String[] args) {
-        //compare some hikes
-    }
 }
