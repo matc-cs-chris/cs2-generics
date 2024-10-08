@@ -19,4 +19,9 @@ public class Hike<T extends Number> implements Comparable<Hike<T>> {
 
         return (int) (thisDifficulty - otherDifficulty);
     }
+
+    @Override
+    public String toString() {
+        return "Hike:\n\tDistance: " + distance + "\n\tMax Elevation: " + maxElevation + "\n";
+    }
 }
